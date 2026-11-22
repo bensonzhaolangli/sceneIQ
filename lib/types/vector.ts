@@ -26,6 +26,6 @@ export interface CollectionStatistics {
   name: string
   totalDocuments: number
   embeddingDimension: number | null
-  metaDataKeys: string[]
+  metadataKeys: string[]
   documentIds: string[]
 }

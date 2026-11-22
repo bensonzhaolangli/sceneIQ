@@ -1,4 +1,4 @@
-import { Scene } from './scene'
+import { Scene } from "./scene"
 
 export interface Video {
   source: string
@@ -10,7 +10,6 @@ export interface Video {
   scenes?: Scene[]
   sceneCount?: number
 }
-
 export interface VideoWithScenes extends Video {
   scenes: Scene[]
   sceneCount: number
